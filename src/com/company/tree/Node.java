@@ -1,25 +1,49 @@
-package com.company;
+package com.company.tree;
 
 import com.company.utils.Pair;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
-public class Tree {
-  public static Tree makeTree(List<String> columnNames, List<String> classes, List<? extends List<String>> attrValues) {
-    int attrsSize = columnNames.size();
-    Pair<Integer, Double> maxGainRatio = Pair.of(0, calcGainRatio(0, classes, attrValues));
+public class Node {
+  final Node parentNode;
+  final int columnIdx;
+  final String columnValue;
 
-    for (int i = 1; i < attrsSize; i++) {
-      var gainRation = calcGainRatio(i, classes, attrValues);
-      if(maxGainRatio.second < gainRation) {
-        maxGainRatio = Pair.of(i, gainRation);
+  private Node(Node parentNode, int columnIdx, String columnValue) {
+    this.parentNode = parentNode;
+    this.columnIdx = columnIdx;
+    this.columnValue = columnValue;
+  }
+
+  static List<Node> makeNodes(Node parentNode, Set<Integer> allowedColumnIndexes, List<String> classes, List<? extends List<String>> attrValues) {
+    if (allowedColumnIndexes.isEmpty()) {
+      throw new IllegalArgumentException("Allowed columns must not be empty");
+    }
+
+    Pair<Integer, Double> maxGainRatio = null;
+
+    for (int columnIdx : allowedColumnIndexes) {
+      var gainRation = calcGainRatio(columnIdx, classes, attrValues);
+      System.out.printf("%5d | %f\n", columnIdx, gainRation);
+      if (maxGainRatio == null || maxGainRatio.second < gainRation) {
+        maxGainRatio = Pair.of(columnIdx, gainRation);
       }
     }
 
+    System.out.println("------------------------------");
     System.out.println(maxGainRatio.first);
-    return null;
+
+    var targetAttrValues = new HashSet<String>();
+
+    for (List<String> localAttrValues : attrValues) {
+      targetAttrValues.add(localAttrValues.get(maxGainRatio.first));
+    }
+
+    Pair<Integer, Double> finalMaxGainRatio = maxGainRatio;
+    return targetAttrValues.stream()
+      .map(value -> new Node(parentNode, finalMaxGainRatio.first, value))
+      .collect(Collectors.toList());
   }
 
   private static double calcGainRatio(int targetAttrIndex, List<String> classes, List<? extends List<String>> attrValues) {
@@ -33,7 +57,7 @@ public class Tree {
   private static double calcInfoByAttr(
     int targetAttrIndex, List<String> classes, List<? extends List<String>> attrValues
   ) {
-    if(classes.size() != attrValues.size()) {
+    if (classes.size() != attrValues.size()) {
       var message = "Size of classes is " + classes.size() + ". " +
         "But size of attrValues is " + attrValues.size();
       throw new IllegalArgumentException(message);

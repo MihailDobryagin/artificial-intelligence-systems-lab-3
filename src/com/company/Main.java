@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.tree.Tree;
 import com.company.utils.LocalCollectors;
 
 import java.io.FileNotFoundException;

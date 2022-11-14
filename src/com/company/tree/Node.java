@@ -3,17 +3,24 @@ package com.company.tree;
 import com.company.utils.Pair;
 
 import java.util.*;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class Node {
-  final Node parentNode;
+  final Node parent;
+  final List<Node> children;
   final int columnIdx;
   final String columnValue;
+  final String prevailingClassValue;
+  final double classProbability;
 
-  private Node(Node parentNode, int columnIdx, String columnValue) {
-    this.parentNode = parentNode;
+  private Node(Node parent, int columnIdx, String columnValue, String prevailingClassValue, double classProbability) {
+    this.parent = parent;
     this.columnIdx = columnIdx;
     this.columnValue = columnValue;
+    this.prevailingClassValue = prevailingClassValue;
+    this.classProbability = classProbability;
+    this.children = new LinkedList<>();
   }
 
   static List<Node> makeNodes(Node parentNode, Set<Integer> allowedColumnIndexes, List<String> classes, List<? extends List<String>> attrValues) {
@@ -25,25 +32,52 @@ public class Node {
 
     for (int columnIdx : allowedColumnIndexes) {
       var gainRation = calcGainRatio(columnIdx, classes, attrValues);
-      System.out.printf("%5d | %f\n", columnIdx, gainRation);
+//      System.out.printf("%5d | %f\n", columnIdx, gainRation);
       if (maxGainRatio == null || maxGainRatio.second < gainRation) {
         maxGainRatio = Pair.of(columnIdx, gainRation);
       }
     }
 
-    System.out.println("------------------------------");
-    System.out.println(maxGainRatio.first);
+//    System.out.println("------------------------------");
+//    System.out.println(maxGainRatio.first);
 
     var targetAttrValues = new HashSet<String>();
+    var classFrequenciesByTargetAttrValue = new HashMap<String, HashMap<String, Integer>>();
 
-    for (List<String> localAttrValues : attrValues) {
-      targetAttrValues.add(localAttrValues.get(maxGainRatio.first));
+    for (int i = 0; i < attrValues.size(); i++) {
+      var localAttrValues = attrValues.get(i);
+      var targetAttrValue = localAttrValues.get(maxGainRatio.first);
+      var curClass = classes.get(i);
+      var curClassFrequenciesOfTargetAttrValue = classFrequenciesByTargetAttrValue
+        .getOrDefault(targetAttrValue, new HashMap<>());
+      var curClassCount = curClassFrequenciesOfTargetAttrValue.getOrDefault(curClass, 0);
+      curClassCount++;
+      curClassFrequenciesOfTargetAttrValue.put(curClass, curClassCount);
+      classFrequenciesByTargetAttrValue.put(targetAttrValue, curClassFrequenciesOfTargetAttrValue);
+      targetAttrValues.add(targetAttrValue);
     }
 
     Pair<Integer, Double> finalMaxGainRatio = maxGainRatio;
     return targetAttrValues.stream()
-      .map(value -> new Node(parentNode, finalMaxGainRatio.first, value))
+      .map(value -> {
+        AtomicInteger countOfClasses = new AtomicInteger();
+        var prevailingClassValueWithCount = classFrequenciesByTargetAttrValue
+          .get(value).entrySet().stream()
+          .peek(entry -> countOfClasses.addAndGet(entry.getValue()))
+          .max(Map.Entry.comparingByValue())
+          .get();
+
+        return new Node(
+          parentNode, finalMaxGainRatio.first, value,
+          prevailingClassValueWithCount.getKey(),
+          ((double) prevailingClassValueWithCount.getValue()) / ((double) countOfClasses.get())
+        );
+      })
       .collect(Collectors.toList());
+  }
+
+  void addChildren(List<Node> children) {
+    this.children.addAll(children);
   }
 
   private static double calcGainRatio(int targetAttrIndex, List<String> classes, List<? extends List<String>> attrValues) {

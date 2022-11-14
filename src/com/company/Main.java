@@ -23,7 +23,7 @@ public class Main {
     "C:\\Users\\Михаил\\Desktop\\Университет\\3 курс\\CИИ\\Лабораторные\\3\\Project\\resources\\dataset.csv";
   private static final String JSON_FILE_PATH = "resources/tree.json";
   private static final int COUNT_OF_LINES = 8124;
-  private static final double DATA_RATIO = 0.7;
+  private static final double DATA_RATIO = 0.8;
   private static final int CLASS_COLUMN_INDEX = 0;
 
   public static void main(String[] args) throws IOException {
@@ -46,18 +46,6 @@ public class Main {
         .boxed()
         .collect(Collectors.toCollection(LinkedList::new));
 
-//      randomColumnIndexes.add(columnIndexesByNames.get("cap-color"));
-//      randomColumnIndexes.add(columnIndexesByNames.get("odor"));
-//      randomColumnIndexes.add(columnIndexesByNames.get("gill-spacing"));
-//      randomColumnIndexes.add(columnIndexesByNames.get("stalk-surface-above-ring"));
-//      randomColumnIndexes.add(columnIndexesByNames.get("stalk-color-above-ring"));
-//
-//      columnIndexesByNames.remove(columnIndexesByNames.get("cap-color"));
-//      columnIndexesByNames.remove(columnIndexesByNames.get("odor"));
-//      columnIndexesByNames.remove(columnIndexesByNames.get("gill-spacing"));
-//      columnIndexesByNames.remove(columnIndexesByNames.get("stalk-surface-above-ring"));
-//      columnIndexesByNames.remove(columnIndexesByNames.get("stalk-color-above-ring"));
-
       var random = new Random();
       for (int i = 0; i < 5; i++) {
         var randNumber = abs(random.nextInt()) % currentColumnIndexes.size();
@@ -71,7 +59,7 @@ public class Main {
     );
 
 
-    var tree = Tree.makeTree(columnNamesWithoutClass, randomColumnIndexes, classes, dataWithoutClass);
+    var tree = Tree.makeTree(columnNamesWithoutClass, randomColumnIndexes, classes, dataWithoutClass, 0.5);
 
 
     //////////////////////////////////////////////////////////////////////////
@@ -95,9 +83,6 @@ public class Main {
       }
       accuracy = ((double) count_of_true) / ((double) classes.size());
     }
-
-    System.out.println("accuracy : " + accuracy);
-    System.out.println();
 
     var possibleClasses = new HashSet<>(classes);
     var good_prediction = new HashMap<String, Integer>();
@@ -139,7 +124,7 @@ public class Main {
     });
 
     drawAucRoc(tree, classes, dataWithoutClass);
-    drawAucPr(tree, classes, dataWithoutClass);
+    drawAucPr(tree, randomColumnIndexes, classes, dataWithoutClass);
   }
 
   private static Pair<List<List<String>>, List<List<String>>> splitData(
@@ -199,7 +184,66 @@ public class Main {
     swingWrapper.displayChart();
   }
 
+  private static void drawAucPr(Tree tree, Set<Integer> allowedColumnIndexes, List<String> classes, List<? extends List<String>> attrValues) {
+    int size = classes.size();
+    var x = new LinkedList<Double>();
+    var y = new LinkedList<Double>();
+    for (double necessaryToBaseClassProbability = 0.; necessaryToBaseClassProbability <= 1.; necessaryToBaseClassProbability += 0.05) {
+      var baseClass = classes.stream().distinct().min(String::compareTo).get();
 
+      var good_prediction = new HashMap<String, Integer>();
+      var bad_prediction = new HashMap<String, Integer>();
+      var missed = new HashMap<String, Integer>();
+
+      classes.stream().distinct().forEach(c -> {
+        good_prediction.put(c, 0);
+        bad_prediction.put(c, 0);
+        missed.put(c, 0);
+      });
+
+      tree = tree.rebuildToNew(allowedColumnIndexes, classes, attrValues, necessaryToBaseClassProbability);
+      for (int i = 0; i < size; i++) {
+        var prediction = tree.predict(attrValues.get(i));
+        var predictedClass = prediction.first;
+        var trueClass = classes.get(i);
+
+        if (trueClass.equals(predictedClass)) {
+          int prevValue = good_prediction.getOrDefault(trueClass, 0);
+          prevValue++;
+          good_prediction.put(trueClass, prevValue);
+        } else {
+          int prevValue = bad_prediction.get(trueClass);
+          prevValue++;
+          bad_prediction.put(trueClass, prevValue);
+          prevValue = missed.get(trueClass);
+          prevValue++;
+          missed.put(predictedClass, prevValue);
+        }
+      }
+
+      double TP = good_prediction.get(baseClass);
+      double precision = TP / (TP + missed.get(baseClass));
+      double recall = TP / (TP + bad_prediction.get(baseClass));
+//      System.out.println(recall);
+//      System.out.println(precision);
+//      System.out.println();
+      x.add(recall);
+      y.add(precision);
+
+      System.out.println(recall);
+    }
+
+    XYChart chart = QuickChart.getChart(
+      "AUC PR", "Recall", "Precision", "stub", List.of(0., 1.), List.of(0., 1.)
+    );
+    var stubSeries = chart.updateXYSeries("stub", List.of(0., 1.), List.of(0., 1.), null);
+    stubSeries.setShowInLegend(false);
+    stubSeries.setLineStyle(SeriesLines.NONE);
+    var series = chart.addSeries("curve", x, y);
+    series.setMarker(SeriesMarkers.NONE);
+    var swingWrapper = new SwingWrapper<>(chart);
+    swingWrapper.displayChart();
+  }
 
 
   private static void writeTreeToFile(Tree tree) throws IOException {

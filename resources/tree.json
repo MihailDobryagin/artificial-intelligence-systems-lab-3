@@ -1,0 +1,3448 @@
+[
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "p",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "p",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  },
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  },
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "p",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  },
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  },
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "19",
+        "column-name": "spore-print-color",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "0",
+            "column-name": "cap-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "p",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "9",
+            "column-name": "stalk-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "9",
+            "column-name": "stalk-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "9",
+            "column-name": "stalk-shape",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "9",
+            "column-name": "stalk-shape",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "19",
+                "column-name": "spore-print-color",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "p",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "p",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "p",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "p",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  },
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "column-index": "9",
+                "column-name": "stalk-shape",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  },
+                  {
+                    "column-index": "5",
+                    "column-name": "gill-attachment",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "column-index": "8",
+    "column-name": "gill-color",
+    "prevailing-class": "e",
+    "children": [
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "column-index": "0",
+        "column-name": "cap-shape",
+        "prevailing-class": "e",
+        "children": [
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "column-index": "19",
+            "column-name": "spore-print-color",
+            "prevailing-class": "e",
+            "children": [
+              {
+                "column-index": "5",
+                "column-name": "gill-attachment",
+                "prevailing-class": "e",
+                "children": [
+                  {
+                    "column-index": "9",
+                    "column-name": "stalk-shape",
+                    "prevailing-class": "e",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

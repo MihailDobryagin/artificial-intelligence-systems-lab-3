@@ -23,7 +23,13 @@ public class Node {
     this.children = new LinkedList<>();
   }
 
-  static List<Node> makeNodes(Node parentNode, Set<Integer> allowedColumnIndexes, List<String> classes, List<? extends List<String>> attrValues) {
+  static List<Node> makeNodes(
+    Node parentNode,
+    Set<Integer> allowedColumnIndexes,
+    List<String> classes,
+    List<? extends List<String>> attrValues,
+    double probabilityToBaseClass // necessaryProbabilityToBaseClass
+  ) {
     if (allowedColumnIndexes.isEmpty()) {
       throw new IllegalArgumentException("Allowed columns must not be empty");
     }
@@ -31,15 +37,11 @@ public class Node {
     Pair<Integer, Double> maxGainRatio = null;
 
     for (int columnIdx : allowedColumnIndexes) {
-      var gainRation = calcGainRatio(columnIdx, classes, attrValues);
-//      System.out.printf("%5d | %f\n", columnIdx, gainRation);
-      if (maxGainRatio == null || maxGainRatio.second < gainRation) {
-        maxGainRatio = Pair.of(columnIdx, gainRation);
+      var gainRatio = calcGainRatio(columnIdx, classes, attrValues);
+      if (maxGainRatio == null || maxGainRatio.second < gainRatio) {
+        maxGainRatio = Pair.of(columnIdx, gainRatio);
       }
     }
-
-//    System.out.println("------------------------------");
-//    System.out.println(maxGainRatio.first);
 
     var targetAttrValues = new HashSet<String>();
     var classFrequenciesByTargetAttrValue = new HashMap<String, HashMap<String, Integer>>();
@@ -67,11 +69,38 @@ public class Node {
           .max(Map.Entry.comparingByValue())
           .get();
 
-        return new Node(
-          parentNode, finalMaxGainRatio.first, value,
-          prevailingClassValueWithCount.getKey(),
-          ((double) prevailingClassValueWithCount.getValue()) / ((double) countOfClasses.get())
-        );
+        var notPrevailingClassValueWithCount = classFrequenciesByTargetAttrValue
+          .get(value).entrySet().stream()
+          .peek(entry -> countOfClasses.addAndGet(entry.getValue()))
+          .min(Map.Entry.comparingByValue())
+          .get();
+
+        var prevailingClassProbability = ((double) prevailingClassValueWithCount.getValue()) / ((double) countOfClasses.get());
+        var notPrevailingClassProbability = ((double) notPrevailingClassValueWithCount.getValue()) / ((double) countOfClasses.get());
+        // BaseClass -- class with MIN string-value
+
+        if (prevailingClassValueWithCount.getKey().compareTo(notPrevailingClassValueWithCount.getKey()) > 0) {
+          var tmpProbability = prevailingClassProbability;
+          prevailingClassProbability = notPrevailingClassProbability;
+          notPrevailingClassProbability = tmpProbability;
+          var tmpClassValueWithCount = prevailingClassValueWithCount;
+          prevailingClassValueWithCount = notPrevailingClassValueWithCount;
+          notPrevailingClassValueWithCount = tmpClassValueWithCount;
+        }
+
+        if (prevailingClassProbability >= probabilityToBaseClass) {
+          return new Node(
+            parentNode, finalMaxGainRatio.first, value,
+            prevailingClassValueWithCount.getKey(),
+            prevailingClassProbability
+          );
+        } else {
+          return new Node(
+            parentNode, finalMaxGainRatio.first, value,
+            notPrevailingClassValueWithCount.getKey(),
+            notPrevailingClassProbability
+          );
+        }
       })
       .collect(Collectors.toList());
   }

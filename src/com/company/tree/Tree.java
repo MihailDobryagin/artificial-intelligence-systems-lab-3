@@ -4,7 +4,6 @@ import com.company.utils.Pair;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class Tree {
   private final List<Node> rootNodes;
@@ -15,23 +14,24 @@ public class Tree {
     this.columnNames = columnNames;
   }
 
-  public static Tree makeTree(List<String> columnNames, List<String> classes, List<? extends List<String>> attrValues) {
-    return makeTree(
-      columnNames,
-      IntStream.range(0, columnNames.size()).boxed().collect(Collectors.toSet()),
-      classes,
-      attrValues
-    );
+  public Tree rebuildToNew(
+    Set<Integer> allowedColumnIndexes,
+    List<String> classes,
+    List<? extends List<String>> attrValues,
+    double probabilityToBaseClass
+  ) {
+    return makeTree(columnNames, allowedColumnIndexes, classes, attrValues, probabilityToBaseClass);
   }
 
   public static Tree makeTree(
     List<String> columnNames,
     Set<Integer> allowedColumnIndexes,
     List<String> classes,
-    List<? extends List<String>> attrValues
+    List<? extends List<String>> attrValues,
+    double probabilityToBaseClass
   ) {
     var tree = new Tree(columnNames, attrValues);
-    tree.rootNodes.addAll(createChildrenFromParent(null, allowedColumnIndexes, classes, attrValues));
+    tree.rootNodes.addAll(createChildrenFromParent(null, allowedColumnIndexes, classes, attrValues, probabilityToBaseClass));
     return tree;
   }
 
@@ -55,10 +55,10 @@ public class Tree {
 
     while (resultClass == null && !nodes.isEmpty()) {
       var matchedNode = nodes.stream()
-          .filter(node -> attrValue.get(node.columnIdx).equals(node.columnValue))
-          .findFirst().get();
+        .filter(node -> attrValue.get(node.columnIdx).equals(node.columnValue))
+        .findFirst().get();
 
-      if (matchedNode.children.isEmpty()){
+      if (matchedNode.children.isEmpty()) {
         resultClass = matchedNode.prevailingClassValue;
         probability = matchedNode.classProbability;
       }
@@ -76,7 +76,8 @@ public class Tree {
     Node parentNode,
     Set<Integer> allowedColumnIndexes,
     List<String> classes,
-    List<? extends List<String>> attrValues
+    List<? extends List<String>> attrValues,
+    double probabilityToBaseClass
   ) {
     List<Node> children;
 
@@ -94,16 +95,16 @@ public class Tree {
       children = allowedColumnIndexesWithoutParentNodeTargetIndex.isEmpty()
         ? Collections.emptyList()
         : Node.makeNodes(
-        parentNode, allowedColumnIndexesWithoutParentNodeTargetIndex, cuttedByParentClasses, cuttedByParentAttrValues
+        parentNode, allowedColumnIndexesWithoutParentNodeTargetIndex, cuttedByParentClasses, cuttedByParentAttrValues, probabilityToBaseClass
       );
 
       parentNode.addChildren(children);
-      children.forEach(child -> createChildrenFromParent(child, allowedColumnIndexesWithoutParentNodeTargetIndex, cuttedByParentClasses, cuttedByParentAttrValues));
+      children.forEach(child -> createChildrenFromParent(child, allowedColumnIndexesWithoutParentNodeTargetIndex, cuttedByParentClasses, cuttedByParentAttrValues, probabilityToBaseClass));
     } else {
       children = allowedColumnIndexes.isEmpty()
         ? Collections.emptyList()
-        : Node.makeNodes(null, allowedColumnIndexes, classes, attrValues);
-      children.forEach(child -> createChildrenFromParent(child, allowedColumnIndexes, classes, attrValues));
+        : Node.makeNodes(null, allowedColumnIndexes, classes, attrValues, probabilityToBaseClass);
+      children.forEach(child -> createChildrenFromParent(child, allowedColumnIndexes, classes, attrValues, probabilityToBaseClass));
     }
     return children;
   }

@@ -84,6 +84,9 @@ public class Main {
       accuracy = ((double) count_of_true) / ((double) classes.size());
     }
 
+    System.out.println("accuracy : " + accuracy);
+    System.out.println();
+
     var possibleClasses = new HashSet<>(classes);
     var good_prediction = new HashMap<String, Integer>();
     var bad_prediction = new HashMap<String, Integer>();
